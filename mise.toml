@@ -1,0 +1,3 @@
+[tools]
+zig = "latest"
+deno = "latest"
