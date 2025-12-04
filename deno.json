@@ -1,6 +1,6 @@
 {
   "name": "@nullstyle/urand",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "exports": "./src/mod.ts",
   "tasks": {
     "build": "zig build-exe -target wasm32-freestanding -O ReleaseSmall -rdynamic -fno-entry src/prng.zig -femit-bin=prng.wasm && deno run -A scripts/embed.ts",
